@@ -1,43 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assests/style.css">
+    <title>Jose's Portfolio</title>
+  </head>
 
-<head>
-  <title>Jose Seto Portfolio</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="./assests/reset.css">
-  <link rel="stylesheet" type="text/css" href="./assests/style.css" />
-</head>
-
-<header>
-    <h1>Jose Seto Portfolio</h1>
-    <div class = "Options">
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>
+        <a href="/">Jose's Portfolio</a>
+      </h1>
+      <!-- Start of Navigation -->
+      <nav>
         <ul>
-            <a href = "#about-me"><li>About Me</li></a>
-            <a href = "#github"><li>Github</li></a>
-            <a href = "#contact-me"><li>Contact me</li></a>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact Me</a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/jose-seto-633bb5149">Resume</a>
+          </li>
         </ul>
-    </div>
-</header>
+      </nav>
+    </header>
+    <!-- End of Navigation Section -->
+    <!-- End of Header Section -->
 
-<body>
-    <main>
-    <section id = "about-me">
-        <h2>About Me!</h2>
-        <p></p>
+    <!-- Start of Hero Section -->
+    <section class="hero">
+        <h2>Full-Stack Website Development Student</h2>
     </section>
-    <section id ="github">
-        <h3>Github projects</h3>
-    </section>
-    </main>
-</body>
+    <!-- End of Hero Section -->
 
-<footer id = "contact-me">
-    <h3>Contact me</h3>
-    <div class = "contact">
-        <ul>
-            <li>Phone: 720-884-6990</li>
-            <li>Email: joseseto8@gmail.com</li>
-        </ul>
-    </div>
-</footer>
+    <!-- Start of "About Me" Section -->
+    <section id="about-me" class="section">
+        <!-- Section Title -->
+        <div class="section-title">
+            <h2>
+            About Me
+            </h2>
+        </div>
+
+        <!-- Section Content -->
+        <div class="flex-row">
+            <img src="./assests/images/Jose-Portrait.jpg" class="photo" />
+            <p>
+                Hello! Below, you will find an overview of my journey as a student full-stack website developer through experiences that I have accrued since the beginning of my journey as a developer.
+            </p>
+        </div>
+    </section>
+    <!-- End of "About Me" Section -->
+
+    <!-- Start of Project Section -->
+
+    <!-- End of Project Section -->
+    
+    <!-- Start of "Contact Me" Section -->
+    <section id="contact-me" class="section">
+        <!-- Section Title -->
+        <div class="section-title">
+          <h2>
+            Contact Me
+          </h2>
+        </div>
+
+        <!-- Section Content -->
+        <div class="flex-row">
+            <div class="phone">
+                <a href="tel:123-456-789">Call Me</a>
+            </div>
+
+            <div class="email">
+                <a href="mailto:testemail@gmail.com">Email Me</a>
+            </div>
+
+            <div class="linkedin">
+                <a href="https://linkedin.com/in/jose-seto-633bb5149">LinkedIn</a>
+            </div>
+
+            <div class="github">
+                <a href="https://github.com/JoseSeto">Github</a>
+            </div>
+      </div>
+      </section>
+    <!-- End of "Contact Me" Section -->
+
+    <!-- footer -->
+    <footer>
+      <h2>Made by Jose Seto</h2>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
